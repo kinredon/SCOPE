@@ -1,5 +1,5 @@
 # SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodel LLMs
-[[`Paper`](xxx) | [`BibTex`](#citation) | [`📂Logs`]()]
+[[`Paper`](xxx) | [`BibTex`](#citation) | [`📂Logs`](https://drive.google.com/drive/folders/1pat-szhxEG6DW6rtiosysZL2eKOTRsOC?usp=sharing)]
 
 ---
 
@@ -15,8 +15,9 @@ Official Implementation for "[SCOPE: Saliency-Coverage Oriented Token Pruning fo
 Multimodal Large Language Models (MLLMs) typically process a large number of visual tokens, leading to considerable computational overhead, even though many of these tokens are redundant. Existing visual token pruning methods primarily focus on selecting the most salient tokens based on attention scores, resulting in the semantic incompleteness of the selected tokens. In this paper, we propose a novel visual token pruning strategy, called **S**aliency-**C**overage **O**riented token **P**runing for **E**fficient MLLMs (SCOPE), to jointly model both the saliency and coverage of the selected visual tokens to better preserve semantic completeness. Specifically, we introduce a set-coverage for a given set of selected tokens, computed based on the token relationships. We then define a token-coverage gain for each unselected token, quantifying how much additional coverage would be obtained by including it. By integrating the saliency score into the token-coverage gain, we propose our SCOPE score and iteratively select the token with the highest SCOPE score. We conduct extensive experiments on multiple vision-language understanding benchmarks using the LLaVA-1.5 and LLaVA-Next models. Experimental results demonstrate that our method consistently outperforms prior approaches.
 
 ## News
-- [2025.10.23] We release the code of SCOPE for LLaVA.
-- [2025.10.23] We release [Paper]() and this GitHub repo.
+- [2025.10.27] We add a [Chat-Demo](https://huggingface.co/spaces/kinredon/SCOPE-Chat-Demo) for SCOPE, enabling users to manually select visual token types including scratch tokens, salient tokens, and SCOPE tokens. The users can intuitively observe how different visual tokens selections influence the model’s final response.
+- [2025.10.27] We release the code of SCOPE for LLaVA.
+- [2025.10.27] We release [Paper]() and this GitHub repo.
 
 
 ## Installation
