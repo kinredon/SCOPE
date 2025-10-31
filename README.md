@@ -1,9 +1,9 @@
 # SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodel LLMs
-[[`Paper`](https://github.com/kinredon/SCOPE) | [`BibTex`](#citation) | [`📂Logs`](https://drive.google.com/drive/folders/1pat-szhxEG6DW6rtiosysZL2eKOTRsOC?usp=sharing)]
+[[`Paper`](https://arxiv.org/abs/2510.24214) | [`BibTex`](#citation) | [`📂Logs`](https://drive.google.com/drive/folders/1pat-szhxEG6DW6rtiosysZL2eKOTRsOC?usp=sharing)]
 
 ---
 
-Official Implementation for "[SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodel LLMs](https://github.com/kinredon/SCOPE)".
+Official Implementation for "[SCOPE: Saliency-Coverage Oriented Token Pruning for Efficient Multimodel LLMs](https://arxiv.org/abs/2510.24214)".
 
 [Jinhong Deng](https://scholar.google.co.jp/citations?user=XrtJ8mEAAAAJ),&nbsp;
 [Wen Li*](https://scholar.google.co.jp/citations?user=yjG4Eg4AAAAJ),&nbsp;
@@ -17,7 +17,7 @@ Multimodal Large Language Models (MLLMs) typically process a large number of vis
 ## News
 - [2025.10.27] We add a [Chat-Demo](https://huggingface.co/spaces/kinredon/SCOPE-Chat-Demo) for SCOPE, enabling users to manually select visual token types including scratch tokens, salient tokens, and SCOPE tokens. The users can intuitively observe how different visual tokens selections influence the model’s final response.
 - [2025.10.27] We release the code of SCOPE for LLaVA.
-- [2025.10.27] We release [Paper]() and this GitHub repo.
+- [2025.10.27] We release [Paper](https://arxiv.org/abs/2510.24214) and this GitHub repo.
 
 
 ## Installation
